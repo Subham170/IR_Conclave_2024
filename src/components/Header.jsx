@@ -14,7 +14,7 @@ const Header = () => {
       let [open, setOpen] =useState(false);
 
     return (
-        <div className='shadow-md w-full fixed top-0 left-0 z-10'>
+        <div className=' shadow-[0_3px_8px_rgba(0,0,0,0.8)] w-full fixed top-0 left-0 z-10'>
            <div className='md:flex items-center justify-between bg-[#8f1402] py-4 md:px-10 px-7'>
             {/* logo section */}
             <a href='/' className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
