@@ -1,9 +1,10 @@
 import React from 'react';
 import IIT from '../../assets/IIT.jpg';
+import campusTour from "../../assets/video/campus_tour.mp4";
 
 function About() {
   return (
-    <div className="flex flex-col items-center w-[100vw] h-[100vh] px-4 mt-28">
+    <div className="relative flex flex-col items-center w-[100vw] h-[100vh] px-4 mt-28">
       <h1 className="text-3xl text-black text-center w-full mb-6 underline">About IIT (ISM) Dhanbad</h1>
       
       {/* Container for image and text */}
@@ -20,6 +21,35 @@ function About() {
           Our strong commitment to fostering an inclusive and dynamic learning environment positions us as one of India’s premier institutions.
         </p>
       </div>
+
+      {/* Video Player in the bottom right corner */}
+
+      <div className="flex max-w-5xl w-full items-start font-Ubuntu">
+        <p className="text-left w-2/3 mt-2">
+          Our campus provides various clubs, events, and resources tailored to
+          the needs of international students. From cultural festivals to
+          academic seminars, students have ample opportunities to learn, grow,
+          and connect with others. We strive to make the transition to life at
+          IIT (ISM) Dhanbad as smooth and enjoyable as possible. Our campus
+          provides various clubs, events, and resources tailored to the needs of
+          international students. From cultural festivals to academic seminars,
+          students have ample opportunities to learn, grow, and connect with
+          others.
+        </p>
+
+        <div className="absolute bottom-10 right-10 w-[400px] h-[240px]">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          controls 
+          className="w-full h-full object-cover rounded-lg shadow-lg"
+        > 
+          <source src={campusTour} type="video/mp4" />
+        </video>
+      </div>
+      </div>
+      
     </div>
   );
 }
