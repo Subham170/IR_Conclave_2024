@@ -1,5 +1,6 @@
 import React from 'react';
 import IIT from '../../assets/IIT.jpg';
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -9,7 +10,7 @@ function About() {
       {/* Container for image and text */}
       <div className="flex w-full justify-center items-start">
         {/* Left-aligned image */}
-        <img src={IIT} alt="IIT (ISM) Dhanbad" className="w-1/3 rounded-[20px] shadow-lg m-2" />
+        <motion.img  initial={{ x: -500, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.7 }} src={IIT} alt="IIT (ISM) Dhanbad" className="w-1/3 rounded-[20px] shadow-lg m-2" />
 
         {/* Right-aligned text */}
         <p className="w-[50vw] ml-4 text-left mt-6">
@@ -20,6 +21,7 @@ function About() {
           Our strong commitment to fostering an inclusive and dynamic learning environment positions us as one of India’s premier institutions.
         </p>
       </div>
+      
     </div>
   );
 }
