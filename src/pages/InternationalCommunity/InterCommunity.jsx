@@ -7,14 +7,14 @@ import { motion } from "framer-motion";
 function InterCommunity() {
   return (
     <div className="flex flex-col items-center w-[100vw] px-4 mt-12">
-      <h1 className="text-3xl text-black text-center w-full mt-16 mb-10">
+      <h1 className="text-3xl text-black text-center w-full mt-16 mb-10 font-Itim">
         A Welcoming Community for International Students
       </h1>
 
       {/* First Section: Left Image and Text */}
-      <div className="flex max-w-5xl w-full mb-8">
+      <div className="flex max-w-5xl w-full mb-8 font-Ubuntu">
         <motion.img
-          initial={{ x: -500, opacity: 0 }}
+          initial={{ x: -460, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
           src={intStudents1}
@@ -34,7 +34,7 @@ function InterCommunity() {
       </div>
 
       {/* Second Section: Right Image and New Text */}
-      <div className="flex max-w-5xl w-full items-start">
+      <div className="flex max-w-5xl w-full items-start font-Ubuntu">
         <p className="text-left w-2/3 mt-2">
           Our campus provides various clubs, events, and resources tailored to
           the needs of international students. From cultural festivals to
@@ -48,7 +48,7 @@ function InterCommunity() {
         </p>
 
         <motion.img
-          initial={{ x: +500, opacity: 0 }}
+          initial={{ x: +460, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
           src={intStudents2}

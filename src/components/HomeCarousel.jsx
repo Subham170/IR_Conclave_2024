@@ -45,7 +45,8 @@ export function HomeCarousel() {
                   <img
                     src={item.url}
                     alt={`Slide ${item.id}`}
-                    className="w-full h-auto  opacity-65"
+                    className="w-full h-64
+                    md:h-auto opacity-65"
                   />
                 </CardContent>
               </Card>
