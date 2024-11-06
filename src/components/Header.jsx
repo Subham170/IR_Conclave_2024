@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <div className=" shadow-[0_3px_8px_rgba(0,0,0,0.8)] w-full fixed top-0 left-0 z-10">
-      <div className="md:flex items-center justify-between bg-[#8f1402] py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-[#911603] py-4 md:px-10 px-7">
         {/* logo section */}
         <a
           href="/"
