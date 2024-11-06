@@ -88,7 +88,7 @@ function Event() {
         }
     ]
   return (
-    <div className='mt-8 flex flex-wrap justify-center flex-col align-middle items-center gap-7'>
+    <div className='mt-16 flex flex-wrap justify-center flex-col align-middle items-center gap-7'>
        <div className='flex flex-wrap justify-center flex-col align-middle items-center gap-4'>
        <h1 className='text-xl font-Ubuntu font-bold text-blue-900'>Event Sechdule</h1>
        <h1 className='text-5xl font-Ubuntu font-bold text-black'>Follow the Event Schedule</h1>

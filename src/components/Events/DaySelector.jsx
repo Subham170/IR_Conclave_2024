@@ -13,7 +13,7 @@ export default function DaySelector({ activeDay, setActiveDay }) {
         } relative`}
       >
         <span>Day 1</span>
-        <span className="text-sm">{activeDay === 1 ? '12 December 2024' : '6 November 2023'}</span>
+        <span className="text-sm">12 December 2024</span>
         {activeDay === 1 && (
           <div className="absolute bottom-[-8px] w-6 h-6 bg-blue-900 z-[-1] transform rotate-45"></div>
         )}
@@ -27,7 +27,7 @@ export default function DaySelector({ activeDay, setActiveDay }) {
         } relative`}
       >
         <span>Day 2</span>
-        <span className="text-sm">{activeDay === 2 ? '13 December 2024' : '7 November 2023'}</span>
+        <span className="text-sm">13 December 2024</span>
         {activeDay === 2 && (
           <div className="absolute bottom-[-8px] w-6 h-6 bg-blue-900 z-[-1] transform rotate-45"></div>
         )}

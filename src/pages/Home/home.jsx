@@ -2,17 +2,18 @@ import React from 'react';
 import bg1 from "../../assets/bg2.jpg";
 import { HomeCarousel } from '../../components/HomeCarousel';
 import Event from "../../components/Events/Event";
+import CampusTourSection from '../../components/CampusTour';
 const Home = () => {
   return (
     <div>
       <div className="relative flex flex-col justify-center items-center">
         <HomeCarousel />
         {/* Background Image */}
-        <img
+        {/* <img
           src={bg1}
           alt="Background Image"
           className="absolute top-0 left-0 w-full h-full object-cover opacity-65 z-[-1]"
-        />
+        /> */}
       </div>
       <div className="flex md:justify-center mt-28 md:mt-0 items-center w-full h-screen flex-col text-center px-4">
         <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-4 font-semibold font-Itim text-[#8f1402]">
@@ -28,6 +29,8 @@ const Home = () => {
           Study in India – A Pathway to Excellence
         </p>
       </div>
+
+      <CampusTourSection />
       <Event />
     </div>
   );
