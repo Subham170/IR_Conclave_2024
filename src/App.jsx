@@ -10,6 +10,7 @@ import InterCommunity from './pages/InternationalCommunity/InterCommunity'
 import Reach from './pages/ReachUS/reachus'
 import Attendees from './pages/Attendees/Attendees'
 import NotFound from './pages/NotFound/NotFound'
+import Footer from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   )
 }
