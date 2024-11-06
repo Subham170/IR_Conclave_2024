@@ -11,7 +11,7 @@ const Footer = () => {
         { name: 'Attendees', url: '/attendees' },
     ]
   return (
-    <footer className="bg-[#741304] text-white py-8 px-4">
+    <footer className="bg-[#741304] text-white py-8 px-4 mt-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
         
         {/* Organized By */}

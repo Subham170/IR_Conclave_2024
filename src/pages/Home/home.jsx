@@ -1,7 +1,7 @@
 import React from 'react';
 import bg1 from "../../assets/bg2.jpg";
 import { HomeCarousel } from '../../components/HomeCarousel';
-
+import Event from "../../components/Events/Event";
 const Home = () => {
   return (
     <div>
@@ -28,6 +28,7 @@ const Home = () => {
           Study in India – A Pathway to Excellence
         </p>
       </div>
+      <Event />
     </div>
   );
 };
