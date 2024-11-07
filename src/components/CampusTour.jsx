@@ -6,7 +6,7 @@ const CampusTourSection = () => {
 
   const [isLoading, setIsLoading] = useState(true);
 return (
-  <Box sx={{ mt: 4, textAlign: 'center', maxWidth: '800px', margin: '0 auto' , display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+  <Box sx={{textAlign: 'center', maxWidth: '800px', margin: '0 auto' , display: 'flex', flexDirection: 'column', alignItems: 'center',marginTop:"60px"}}>
     {/* Section Title */}
     <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold',fontFamily: "Itim", fontSize: '3.5rem',textDecoration: 'underline' }}>
       Explore Our Campus
