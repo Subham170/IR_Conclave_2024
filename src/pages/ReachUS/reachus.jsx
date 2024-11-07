@@ -5,8 +5,6 @@ import { Tooltip as ReactTooltip } from 'react-tooltip';
 import L from 'leaflet';
 import IIT_map from '../../assets/all_IITs_map.jpg';
 import ism_map from '../../assets/campus_map.jpg';
-import IITMap from '../../../../components/All_IIT';
-
 // Custom marker icon
 const markerIcon = new L.Icon({
   iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',
