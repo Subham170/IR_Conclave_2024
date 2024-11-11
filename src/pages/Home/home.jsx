@@ -5,14 +5,14 @@ import CampusTourSection from '../../components/CampusTour';
 
 const Home = () => {
   return (
-    <div className="relative top-24 flex flex-col items-center">
+    <div className="relative  top-24 flex flex-col items-center mb-40">
       {/* Carousel Section */}
       <div className="w-full">
         <HomeCarousel />
       </div>
 
       {/* Main Text Section */}
-      <div className="flex flex-col items-center justify-center text-center w-full p-4 md:pt-12 relative top-[80px] lg:top-[50px] mb-[230px] md:mb-[300px] lg:mb-52">
+      <div className="flex flex-col items-center justify-center text-center max-w-[1500px] p-4 md:pt-12 relative top-[80px] lg:top-[50px] mb-[230px] md:mb-[300px] lg:mb-[250px]">
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4 font-semibold font-Itim text-[#8f1402]">
           Dec 11-12, IIT(ISM) Dhanbad, India
         </p>

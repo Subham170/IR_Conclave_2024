@@ -18,7 +18,7 @@ const ReachUs = () => {
   const indiaCenterCoordinates = [20.5937, 78.9629];
 
   return (
-    <div className="container mx-auto p-4 md:p-8 relative top-24">
+    <div className="container mx-auto p-4 md:p-8 relative top-24 mb-32">
       {/* Page Header */}
       <h1 className="text-2xl md:text-3xl font-bold text-center mb-8">
         Reach Us - IIT Dhanbad
