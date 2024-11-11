@@ -14,9 +14,10 @@ function InterCommunity() {
       {/* First Section: Left Image and Text */}
       <div className="flex max-w-5xl w-full mb-8 font-Ubuntu">
         <motion.img
-          initial={{ x: -460, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.7 }}
+        initial={{ opacity: 0, x: -300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            // viewport={{ once: true }} // This ensures it only animates once
+            transition={{ duration: 0.8, delay: 1 * 0.2 }}
           src={intStudents1}
           alt="International students"
           className="w-1/3 mr-4 rounded-[20px] shadow-lg m-2"
@@ -48,9 +49,10 @@ function InterCommunity() {
         </p>
 
         <motion.img
-          initial={{ x: +460, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.7 }}
+         initial={{ opacity: 0, x: 300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            // viewport={{ once: true }} // This ensures it only animates once
+            transition={{ duration: 0.8, delay: 1 * 0.2 }}
           src={intStudents2}
           alt="International students"
           className="w-1/3 mr-4 rounded-[20px] shadow-lg m-2"

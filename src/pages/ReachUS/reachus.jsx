@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Tooltip as ReactTooltip } from "react-tooltip";
@@ -16,7 +16,21 @@ const markerIcon = new L.Icon({
 
 const ReachUs = () => {
   const indiaCenterCoordinates = [20.5937, 78.9629];
+  const text = `The Indian Institutes of Technology (IITs) are a network of engineering and technology institutions in India. Established in 1950, they are under the purview of the Ministry of Education of the Indian Government and are governed by the Institutes of Technology Act, 1961. The Act refers to them as Institutes of National Importance and lays down their powers, duties, and framework for governance as the country's premier institutions in the field of technology. 23 IITs currently fall under the tenor of this act. Each IIT operates autonomously and is linked to others through a common council called the IIT Council, which oversees their administration. The Minister of Education of India is the ex officio chairperson of the IIT Council. According to data obtained through Right to Information (RTI) applications, approximately 38% of Indian Institute of Technology (IIT) graduates from the class of 2024 have not secured job placements. This is the highest percentage in the past three years, with a steady increase from 19% in 2021 and 21% in 2022.`;
+  
+  const [displayedText, setDisplayedText] = useState("");
 
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setDisplayedText((prev) => prev + text[index]);
+      index++;
+      if (index === text.length) {
+        clearInterval(interval);
+      }
+    }, 0.5); // Adjust the speed (in ms) here
+    return () => clearInterval(interval);
+  }, [text]);
   return (
     <div className="container mx-auto p-4 md:p-8 relative top-24 mb-32">
       {/* Page Header */}
@@ -32,7 +46,7 @@ const ReachUs = () => {
 
         <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
           <div className="w-full md:w-2/3 px-4 md:px-12 py-4 font-Ubuntu text-sm md:text-base">
-          The Indian Institutes of Technology (IITs) are a network of engineering and technology institutions in India. Established in 1950, they are under the purview of the Ministry of Education of the Indian Government and are governed by the Institutes of Technology Act, 1961. The Act refers to them as Institutes of National Importance and lays down their powers, duties, and framework for governance as the country's premier institutions in the field of technology.23 IITs currently fall under the tenor of this act. Each IIT operates autonomously and is linked to others through a common council called the IIT Council, which oversees their administration. The Minister of Education of India is the ex officio chairperson of the IIT Council. According to data obtained thuough Right to Information (RTI) applications, approximately 38% of Indian Institute of Technology (IIT) graduates from the class of 2024 have not secured job placements. This is the highest percentage in the past three years, with a steady increase from 19% in 2021 and 21% in 2022.
+          {displayedText}
           </div>
 
           <div className="w-full md:w-1/3 h-72 md:h-96 relative z-0">

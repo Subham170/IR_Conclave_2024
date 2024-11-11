@@ -11,6 +11,7 @@ import Reach from './pages/ReachUS/reachus'
 import Attendees from './pages/Attendees/Attendees'
 import NotFound from './pages/NotFound/NotFound'
 import Footer from './components/Footer'
+import AboutDhanbad from './pages/About/AboutDhanbad'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/about/ism' element={<About />} />
+          <Route path='/about/dhanbad' element={<AboutDhanbad />} />
           <Route path='/international-community' element={<InterCommunity />} />
           <Route path='/reach-us' element={<Reach />} />
           <Route path='/attendees' element={<Attendees />} />

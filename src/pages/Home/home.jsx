@@ -4,6 +4,9 @@ import Event from "../../components/Events/Event";
 import CampusTourSection from '../../components/CampusTour';
 
 const Home = () => {
+ 
+  
+
   return (
     <div className="relative  top-24 flex flex-col items-center mb-40">
       {/* Carousel Section */}
