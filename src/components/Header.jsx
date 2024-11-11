@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 import logo from "../assets/collegelogo.jpg";
-import logo2 from "../assets/logo3.png";
+import logo2 from "../assets/logo.png";
 import {
   DropdownMenu,
   DropdownMenuContent,
