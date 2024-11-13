@@ -34,7 +34,7 @@ const ReachUs = () => {
   return (
     <div className="container mx-auto p-4 md:p-8 relative top-24 mb-32">
       {/* Page Header */}
-      <h1 className="text-2xl md:text-3xl font-bold text-center mb-8">
+      <h1 className="text-2xl md:text-3xl font-bold text-center font-Ubuntu mb-8">
         Reach Us - IIT Dhanbad
       </h1>
 

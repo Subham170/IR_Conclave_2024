@@ -1,32 +1,38 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import CoalImg from '../../assets/coal_img.avif';
+import Indus_Significance from '../../assets/ind__significnace.jpeg';
+import Dhn_rail from '../../assets/dhn_rail.jpg';
+import acad_excel from '../../assets/acad_excel.jpg';
+import waterfall from '../../assets/waterfall.webp';
+
 const AboutDhanbad = () => {
   const content = [
     { id: 1,
       title: "Coal Capital of India",
       description: `Famous as the "Coal Capital of India," Dhanbad is a prominent city in eastern Jharkhand. It is the second largest industrial city in the state, home to India's largest coal mine, with over 100 operational mines and numerous coal washeries.`,
-      image: "/path-to-image1.jpg",
+      image: CoalImg,
     },
     { id: 2,
       title: "Industrial Significance",
       description: `Dhanbad hosts several major companies like Tata Steel, Eastern Coalfields Limited, and Bharat Coking Coal Limited. It's a hub for coal production, processing, and power generation plants that drive its industrial importance.`,
-      image: "/path-to-image2.jpg",
+      image: Indus_Significance,
     },
     { id: 3,
       title: "Transportation Hub",
       description: `The Dhanbad Rail Division ranks second in revenue generation among Indian Railway divisions, underscoring its importance in transportation. Known for its industrial sector, Dhanbad is one of India’s busiest commercial hubs.`,
-      image: "/path-to-image3.jpg",
+      image: Dhn_rail,
     },
     { id: 4,
       title: "Academic Excellence",
       description: `Dhanbad is home to the Indian Institute of Technology (IIT) ISM Dhanbad, enhancing its reputation as a center of excellence in mining, engineering, and research.`,
-      image: "/path-to-image4.jpg",
+      image: acad_excel,
     },
     { id: 5,
       title: "Natural Attractions",
       description: `Surrounded by stunning natural attractions like Maithon Dam, Panchet Dam, and Topchanchi Lake, Dhanbad offers serene landscapes, boating, and picnic areas, providing a refreshing escape from city life.`,
-      image: "/path-to-image5.jpg",
+      image: waterfall,
     },
   ];
 
