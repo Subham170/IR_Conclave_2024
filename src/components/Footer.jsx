@@ -57,9 +57,9 @@ const Footer = () => {
       </div>
       
       {/* Footer Bottom */}
-      <div className="mt-8 text-center border-t border-gray-600 bg-red-950 py-4 h-auto w-[100vw]">
+      <div className="mt-8 text-center border-t border-gray-600 bg-red-950 py-4 h-auto">
         <p className="text-sm">
-          COPYRIGHT © 2024 IIT(ISM) DHANBAD INTERNATIONAL RELATIONS - DESIGNED & DEVELOPED BY <span className="text-black">INTERNATIONAL RELATIONS</span>
+          COPYRIGHT © 2024 IIT(ISM) DHANBAD INTERNATIONAL RELATIONS - DESIGNED & DEVELOPED BY <span className="font-bold">INTERNATIONAL RELATIONS</span>
         </p>
       </div>
     </footer>
