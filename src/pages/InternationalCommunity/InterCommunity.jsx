@@ -5,7 +5,7 @@ import img from "../../assets/bg2.jpg";
 import  Campus from "../../assets/int_students_1.jpg";
 import diwali from "../../assets/int_students_2.jpg";
 import Facilities from "../../assets/int_stu_4.jpg";
-import dinner from "../../assets/int_stu_3.jpg";
+import dinner from "../../assets/dining-hall2.jpg";
 const InternationalCommunity = () => {
   return (
     <div className="bg-gray-50 text-gray-800 min-h-screen p-6 sg:px-10  md:px-20 relative top-24">

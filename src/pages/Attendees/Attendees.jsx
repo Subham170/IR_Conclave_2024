@@ -7,19 +7,19 @@ function Attendees() {
   const Data = [
     {
       id: 1,
-      name: "Dr. Manoj Kumar",
+      name: "Dr. Sukumar Mishra",
       img: img,
       destination: "Director, IIT(ISM) Dhanbad",
     },
     {
       id: 2,
-      name: "Dr. Manoj Kumar",
+      name: "Dr. Sukumar Mishra",
       img: img,
       destination: "Director, IIT(ISM) Dhanbad",
     },
     {
       id: 3,
-      name: "Dr. Manoj Kumar",
+      name: "Dr. Sukumar Mishra",
       img: img,
       destination: "Director, IIT(ISM) Dhanbad",
     },
