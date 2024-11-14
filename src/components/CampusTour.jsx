@@ -21,10 +21,12 @@ const CampusTourSection = () => {
       {/* Section Title */}
       <Typography
         variant="h4"
+        
         gutterBottom
         sx={{
           fontWeight: 'bold',
           fontFamily: 'Itim',
+          marginTop:'35px',
           fontSize: { xs: '2rem', sm: '3rem', md: '3.5rem' },
           textDecoration: 'underline',
         }}
