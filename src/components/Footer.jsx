@@ -27,7 +27,7 @@ const Footer = () => {
         {/* Event Details */}
         <div className="text-center md:text-left">
           <h2 className="text-lg font-semibold mb-4">Event Details</h2>
-          <p className="text-black font-semibold">12 - 13 December 2024</p>
+          <p className="text-black font-semibold">12th - 13th December 2024</p>
           <p className='text-black'>IIT (ISM) Dhanbad,<br /> India</p>
         </div>
         
