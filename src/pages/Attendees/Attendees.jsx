@@ -2,7 +2,7 @@ import React from "react";
 import ProfileCard from "../../components/Cards/Card";
 import ISM_Director from "../../assets/ISM_Director.png";
 import Katja_Lasch from "../../assets/Katja-Lasch.jpg";
-import Nitin_Seth from "../../assets/Nitin-Seth.jpg";
+import Nitin_Seth from "../../assets/nitin-seth.jpg";
 import Praveen_S from "../../assets/Praveen-S.jpg";
 import Swadha_Rizvi from "../../assets/Swadha-Rizvi.jpg";
 import VC_Srivastava from "../../assets/vc_srivastava.jpg";
