@@ -2,7 +2,7 @@ import React from 'react';
 import { HomeCarousel } from '../../components/HomeCarousel';
 import Event from "../../components/Events/Event";
 import CampusTourSection from '../../components/CampusTour';
-
+import All_IITs from "../../assets/All_IITs.jpg";
 const Home = () => {
  
   
@@ -33,6 +33,10 @@ const Home = () => {
       {/* Additional Sections */}
       <div className="w-full px-4">
         <CampusTourSection />
+      </div>
+
+      <div className='w-[75vw] px-4 rounded-xl'>
+        <img src={All_IITs} alt="" />
       </div>
       <div className="w-full px-4 mt-8">
         <Event />

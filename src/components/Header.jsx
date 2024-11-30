@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import IR_Logo from "../assets/file.png";
 import {
   BookOpenIcon,
   Bars3BottomRightIcon,
@@ -34,7 +35,7 @@ const Header = () => {
           href="/"
           className="font-bold text-2xl cursor-pointer flex items-center gap-1"
         >
-          <img src={logo2} className=" h-[60px] bg-repeat" />
+          <img src={IR_Logo} alt="IR_Logo"className=" h-[70px] bg-repeat" />
         </a>
         {/* Menu icon */}
 

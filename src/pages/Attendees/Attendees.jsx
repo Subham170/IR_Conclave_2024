@@ -1,6 +1,16 @@
 import React from "react";
 import ProfileCard from "../../components/Cards/Card";
-import img from "../../assets/ISM_Director.png";
+import ISM_Director from "../../assets/ISM_Director.png";
+import Katja_Lasch from "../../assets/Katja-Lasch.jpg";
+import Nitin_Seth from "../../assets/Nitin-Seth.jpg";
+import Praveen_S from "../../assets/Praveen-S.jpg";
+import Swadha_Rizvi from "../../assets/Swadha-Rizvi.jpg";
+import VC_Srivastava from "../../assets/vc_srivastava.jpg";
+import B_chandrashekhar from "../../assets/B_chandrashekhar.jpg";
+import Anju_Ranjan from "../../assets/Anju-Ranjan.jpg";
+import Tanmoy_Maity from "../../assets/Prof_Tanmoy_Maity.jpg";
+import R_M_Bhattacharjee from "../../assets/R M Bhattacharjee.jpg";
+import M_Sharma from "../../assets/M Sharma.jpeg";
 import { motion } from "framer-motion";
 
 function Attendees() {
@@ -8,21 +18,75 @@ function Attendees() {
     {
       id: 1,
       name: "Dr. Sukumar Mishra",
-      img: img,
-      destination: "Director, IIT(ISM) Dhanbad",
+      img: ISM_Director,
+      designation: "Director, IIT(ISM) Dhanbad",
     },
     {
       id: 2,
-      name: "Dr. Sukumar Mishra",
-      img: img,
-      destination: "Director, IIT(ISM) Dhanbad",
+      name: "Prof. R M Bhattacharjee",
+      img: R_M_Bhattacharjee,
+      designation: "Dean (International Relations & Alumni Affairs) , IIT(ISM) Dhanbad",
     },
     {
       id: 3,
-      name: "Dr. Sukumar Mishra",
-      img: img,
-      destination: "Director, IIT(ISM) Dhanbad",
+      name: "Prof. Tanmoy Maity",
+      img: Tanmoy_Maity,
+      designation: "Associate Dean (International Relations & Alumni Affairs), IIT(ISM) Dhanbad",
     },
+    {
+      id: 4,
+      name: "Dr. Katja Lasch",
+      img: Katja_Lasch,
+      designation: "Director (DAAD)",
+    },
+    {
+      id: 5,
+      name: "Mr. B. Chandrashekhar",
+      img: B_chandrashekhar,
+      designation: "Executive Director, Educational Consultants India Limited",
+    },
+    {
+      id: 6,
+      name: "Smt. Anju Ranjan",
+      img: Anju_Ranjan,
+      designation: "Deputy Director General ICCR (Culture) ",
+    },
+    {
+      id: 7,
+      name: "Dr. Nitin Seth ",
+      img: Nitin_Seth,
+      designation: "Director, CEFIPRA (Indo-French)",
+    },
+    {
+      id: 8,
+      name: "Dr. Praveen S ",
+      img: Praveen_S,
+      designation: "Head International Cooperation (DST)",
+    },
+    {
+      id: 9,
+      name: "Ms. Swadha Rizwi",
+      img: Swadha_Rizvi,
+      designation: "Regional Director, Indian Council for Cultural Relations",
+    },
+    // {
+    //   id: 10,
+    //   name: "Dr. Sukumar Mishra",
+    //   img: ISM_Director,
+    //   designation: "Director, IIT(ISM) Dhanbad",
+    // },
+    // {
+    //   id: 3,
+    //   name: "Dr. Sukumar Mishra",
+    //   img: ISM_Director,
+    //   designation: "Director, IIT(ISM) Dhanbad",
+    // },
+    // {
+    //   id: 3,
+    //   name: "Dr. Sukumar Mishra",
+    //   img: ISM_Director,
+    //   designation: "Director, IIT(ISM) Dhanbad",
+    // },
   ];
 
   return (
@@ -65,7 +129,7 @@ function Attendees() {
           >
             <ProfileCard
               name={data.name}
-              destination={data.destination}
+              designation={data.designation}
               img={data.img}
             />
           </motion.div>
