@@ -12,6 +12,7 @@ import Tanmoy_Maity from "../../assets/Prof_Tanmoy_Maity.jpg";
 import R_M_Bhattacharjee from "../../assets/R M Bhattacharjee.jpg";
 import M_Sharma from "../../assets/M Sharma.jpeg";
 import { motion } from "framer-motion";
+import ParticipationsList from "./ParticipationsLIst";
 
 function Attendees() {
   const Data = [
@@ -135,6 +136,7 @@ function Attendees() {
           </motion.div>
         ))}
       </motion.div>
+      <ParticipationsList />
     </div>
   );
 }

@@ -220,6 +220,154 @@ export const iitLocations = [
     },
   ];
 
+  export const participants = [
+    // Existing participants
+    {
+      id: 4,
+      name: "Rebecca Jadin",
+      role: "Project Manager (IIT Bombay)",
+      image: bombay, // Replace with actual image URLs
+    },
+    {
+      id: 5,
+      name: "Ms. Sangita Kanjibillya",
+      role: "Executive Officer (IIT Bombay)",
+      image: bombay, // Replace with actual image URLs
+    },
+    {
+      id: 6,
+      name: "Dr. Divya Khatter",
+      role: "International Program Coordinator (IIT Delhi)",
+      image: delhi, // Replace with actual image URLs
+    },
+    {
+      id: 7,
+      name: "Mr. Satya Shiva Shankar R",
+      role: "AR (DOIR) (IIT Kanpur)",
+      image: kanpur, // Replace with actual image URLs
+    },
+    {
+      id: 8,
+      name: "Mr. Anuj Tripathi",
+      role: "Senior Assistant (IIT Kanpur)",
+      image: kanpur, // Replace with actual image URLs
+    },
+    {
+      id: 9,
+      name: "Prof. Rabibrata Mukherjee",
+      role: "Dean, International Relations (IIT Kharagpur)",
+      image: kgp, // Replace with actual image URLs
+    },
+    {
+      id: 10,
+      name: "Mr. Arup Roy",
+      role: "Junior IR Executive (IIT Kharagpur)",
+      image: kgp, // Replace with actual image URLs
+    },
+    {
+      id: 11,
+      name: "Ms. Koushiki Mukherjee",
+      role: "IR Executive (IIT Kharagpur)",
+      image: kgp, // Replace with actual image URLs
+    },
+    {
+      id: 11,
+      name: "Mr. Ravi kant Saini",
+      role: "Project Officer IT (IIT Roorkee)",
+      image: roorkee, // Replace with actual image URLs
+    },
+    {
+      id: 11,
+      name: "Mr Ravi Kumar",
+      role: "Project Officer IT (IIT Roorkee)",
+      image: roorkee, // Replace with actual image URLs
+    },
+    {
+      id: 11,
+      name: "Prof. V C Srivastava",
+      role: "Dean (IR) (IIT Roorkee)",
+      image: roorkee, // Replace with actual image URLs
+    },
+    // New participants
+    {
+      id: 12,
+      name: "Mr. Ashish Biswas",
+      role: "Associate Dean (AA&IR) (IIT Bhubaneswar)",
+      image: bhubaneswar, // Replace with actual image URLs
+    },
+    {
+      id: 13,
+      name: "Prof. Kabeer Jasiya (FIC)",
+      role: "Professor-in-charge, External Relations (IIT Gandhinagar)",
+      image: gandhinagar, // Replace with actual image URLs
+    },
+    {
+      id: 14,
+      name: "Mr. Vijay Sutriya",
+      role: "External Relations (IIT Gandhinagar)",
+      image: gandhinagar, // Replace with actual image URLs
+    },
+    {
+      id: 15,
+      name: "Dr. Ankur Gupta",
+      role: "Associate Dean IR Connect (IIT Jodhpur)",
+      image: jodhpur, // Replace with actual image URLs
+    },
+    {
+      id: 16,
+      name: "Mr. Baikuntha Nath Sahu",
+      role: "AR, IR (IIT Jodhpur)",
+      image: jodhpur, // Replace with actual image URLs
+    },
+    {
+      id: 17,
+      name: "Prof. A. K. Verma",
+      role: "International Relations (IIT Patna)",
+      image: patna, // Replace with actual image URLs
+    },
+    {
+      id: 18,
+      name: "Prof. Atharva",
+      role: "Dean (IR) (IIT Ropar)",
+      image: ropar, // Replace with actual image URLs
+    },{
+      id: 19,
+      name: "Prof. Rukmankesh",
+      role: "FIC (IR) (IIT Bhilai)",
+      image: bhilai, // Replace with actual image URLs
+    },{
+      id: 20,
+      name: "Dr. Sharad Sinha",
+      role: "Faculty Co-ordinator (IIT Goa)",
+      image: goa, // Replace with actual image URLs
+    },{
+      id: 21,
+      name: "Ms Nibedita Dey",
+      role: "Executive (IIT Palakkad)",
+      image: palakkad, // Replace with actual image URLs
+    },{
+      id: 22,
+      name: "Ms Harita",
+      role: "Junior Assistant (IIT Tirupati)",
+      image: tirupati, // Replace with actual image URLs
+    },{
+        id: 23,
+        name: "Prof. Avinash Sonwani",
+        role: "--- (IIT Indore)",
+        image:indore, // Replace with actual image URLs
+    },{
+        id: 24,
+        name: "Prof. Santosh Kr Singh",
+        role: "Associate Dean(R&D) (IIT (BHU) Varanasi)",
+        image: bhu, // Replace with actual image URLs
+    },{
+        id: 25,
+        name: "Mr. Sandip Pareikh",
+        role: "Asst. Registrar (IIT Dharwad)",
+        image: dharwad, 
+    }
+ ];
+
  export  const eventsOfDay1=[
     {
         id:1,
