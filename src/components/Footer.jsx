@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assets/iriac.jpg'
 import map from '../assets/image.png'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import centenaryLogo from "../assets/centenary_logo.jpg"; 
 const Footer = () => {
     const footerURLs = [
         { name: 'Home', url: '/' },
@@ -29,6 +30,7 @@ const Footer = () => {
           <h2 className="text-lg font-semibold mb-4">Event Details</h2>
           <p className="text-black font-semibold">12th - 13th December 2024</p>
           <p className='text-black'>IIT (ISM) Dhanbad,<br /> India</p>
+          <img src={centenaryLogo} alt="Centenary Logo"className=" rounded-xl mt-[20px]  w-[250px] h-[100px] bg-repeat" />
         </div>
         
         {/* Useful Links */}

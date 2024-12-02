@@ -17,6 +17,8 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 
+import centenaryLogo from "../assets/centenary_logo.jpg"; 
+
 const Header = () => {
   let Links = [
     { name: "Home", link: "/" },
@@ -33,9 +35,10 @@ const Header = () => {
         {/* logo section */}
         <a
           href="/"
-          className="font-bold text-2xl cursor-pointer flex items-center gap-1"
+          className="font-bold text-2xl cursor-pointer flex items-center gap-3"
         >
           <img src={IR_Logo} alt="IR_Logo"className=" h-[70px] bg-repeat" />
+          {/* <img src={centenaryLogo} alt="Centenary Logo"className=" w-[200px] h-[70px] bg-repeat" /> */}
         </a>
         {/* Menu icon */}
 
@@ -87,9 +90,11 @@ const Header = () => {
               </li>
             )
           )}
+          <img src={centenaryLogo} alt="Centenary Logo"className="rounded-xl  ml-[15px] w-[200px] h-[70px] bg-repeat" />
           {/* <button className='btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static'>Get Started</button> */}
         </ul>
         {/* button */}
+        
       </div>
     </div>
   );

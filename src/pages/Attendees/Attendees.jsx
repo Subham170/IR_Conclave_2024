@@ -6,7 +6,7 @@ import Nitin_Seth from "../../assets/nitin-seth.jpg";
 import Praveen_S from "../../assets/Praveen-S.jpg";
 import Swadha_Rizvi from "../../assets/Swadha-Rizvi.jpg";
 import VC_Srivastava from "../../assets/vc_srivastava.jpg";
-import B_chandrashekhar from "../../assets/B_chandrashekhar.jpg";
+import B_chandrashekhar from "../../assets/B-Chandrasekar.jpg";
 import Anju_Ranjan from "../../assets/Anju-Ranjan.jpg";
 import Tanmoy_Maity from "../../assets/Prof_Tanmoy_Maity.jpg";
 import R_M_Bhattacharjee from "../../assets/R M Bhattacharjee.jpg";
@@ -35,11 +35,12 @@ function Attendees() {
       designation: "Associate Dean (International Relations & Alumni Affairs), IIT(ISM) Dhanbad",
     },
     {
-      id: 4,
-      name: "Dr. Katja Lasch",
-      img: Katja_Lasch,
-      designation: "Director (DAAD)",
+      id: 6,
+      name: "Smt. Anju Ranjan",
+      img: Anju_Ranjan,
+      designation: "Deputy Director General ICCR (Culture) ",
     },
+    
     {
       id: 5,
       name: "Mr. B. Chandrashekhar",
@@ -47,17 +48,12 @@ function Attendees() {
       designation: "Executive Director, Educational Consultants India Limited",
     },
     {
-      id: 6,
-      name: "Smt. Anju Ranjan",
-      img: Anju_Ranjan,
-      designation: "Deputy Director General ICCR (Culture) ",
+      id: 4,
+      name: "Dr. Katja Lasch",
+      img: Katja_Lasch,
+      designation: "Director (DAAD)",
     },
-    {
-      id: 7,
-      name: "Dr. Nitin Seth ",
-      img: Nitin_Seth,
-      designation: "Director, CEFIPRA (Indo-French)",
-    },
+   
     {
       id: 8,
       name: "Dr. Praveen S ",
@@ -69,6 +65,13 @@ function Attendees() {
       name: "Ms. Swadha Rizwi",
       img: Swadha_Rizvi,
       designation: "Regional Director, Indian Council for Cultural Relations",
+    },
+    
+    {
+      id: 7,
+      name: "Dr. Nitin Seth ",
+      img: Nitin_Seth,
+      designation: "Director, CEFIPRA (Indo-French)",
     },
     // {
     //   id: 10,
