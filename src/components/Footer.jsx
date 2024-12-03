@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/iriac.jpg'
 import map from '../assets/image.png'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import centenaryLogo from "../assets/centenary_logo.jpg"; 
+import IRlogo from "../assets/ir_logo.jpg"; 
 const Footer = () => {
     const footerURLs = [
         { name: 'Home', url: '/' },
@@ -28,9 +28,9 @@ const Footer = () => {
         {/* Event Details */}
         <div className="text-center md:text-left">
           <h2 className="text-lg font-semibold mb-4">Event Details</h2>
-          <p className="text-black font-semibold">12th - 13th December 2024</p>
-          <p className='text-black'>IIT (ISM) Dhanbad,<br /> India</p>
-          <img src={centenaryLogo} alt="Centenary Logo"className=" rounded-xl mt-[20px]  w-[250px] h-[100px] bg-repeat" />
+          <p className="text-blue-400 font-semibold">12th - 13th December 2024</p>
+          <p className='text-blue-400'>IIT (ISM) Dhanbad,<br /> India</p>
+          {/* <img src={IRlogo} alt="Centenary Logo"className=" rounded-xl mt-[20px]  w-[150px] h-[100px] bg-repeat" /> */}
         </div>
         
         {/* Useful Links */}
@@ -39,7 +39,7 @@ const Footer = () => {
           <ul className="space-y-2">
            {footerURLs.map((link, index) => (
             <li key={index}>
-              <a href={link.url} className="flex items-center text-black hover:underline">
+              <a href={link.url} className="flex items-center text-blue-400 hover:underline">
                 <span className="mr-2"><OpenInNewIcon /></span>{link.name} 
               </a>
             </li>
@@ -61,7 +61,9 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="mt-8 text-center border-t border-gray-600 bg-red-950 py-4 h-auto">
         <p className="text-sm">
-          COPYRIGHT © 2024 IIT(ISM) DHANBAD INTERNATIONAL RELATIONS - DESIGNED & DEVELOPED BY <span className="font-bold">INTERNATIONAL RELATIONS</span>
+          COPYRIGHT © 2024 IIT(ISM) DHANBAD INTERNATIONAL RELATIONS - DESIGNED & DEVELOPED BY <span className="font-bold">
+          Students Alumni and International Relation Cell (SAIRC)
+          </span>
         </p>
       </div>
     </footer>
