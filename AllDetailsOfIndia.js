@@ -32,7 +32,9 @@ import guwahati from "./src/assets/iit-guwahati.png";
 import gandhinagar from "./src/assets/iit-gandhinagar.png";
 import bhilai from "./src/assets/Logo_of_IIT_Bhilai.png";
 import jammu from "./src/assets/iit-jammu-01.jpg";
-
+import campus_tour from "./src/assets/campus_tour.jpeg";
+import cultural from "./src/assets/cultural.jpeg";
+import mines from "./src/assets/mines.jpg";
 export const iitLocations = [
     {
       name: "IIT Dhanbad",
@@ -369,68 +371,82 @@ export const iitLocations = [
  ];
 
  export  const eventsOfDay1=[
-    {
+  {
+    id:0,
+    title:"Institute Tour",
+    time:"09:30 AM - 10:30 AM",
+    // location:"GJLT",
+    src:campus_tour
+  } ,
+  {
         id:1,
         title:"Registration",
-        time:"09:00 AM - 09:15 AM",
-        location:"GJLT",
+        time:"10:30 AM - 11:00 AM",
+        // location:"GJLT",
         src:registration
     },
     {
         id:2,
-        title:"Inaugural Session",
-        time:"09:15 AM - 10:30 AM",
-        location:"GJLT",
+        title:"Inaugural Song & Speech",
+        time:"11:00 AM - 12:30 PM",
+        location:"TEXMIN Classroom Hall",
         src:inaugral
     },
     {
         id:3,
-        title:"Group Photo & High Tea Break",
-        time:"10:30 AM - 11:00 AM",
-        location:"RamDhani",
-        // location:"Location 3",
+        title:"Tea Break",
+        time:"12:30 PM - 12:45 PM",
+        // location:"RamDhani",
         src:teabreak
     },
     {
         id:4,
         title:"Plenary Session - 1",
-        time:"11:00 AM - 01:00 PM",
-        location:"GJLT",
+        time:"12:45 PM - 01:45 PM",
+        location:"Texmin Conference Hall",
         src:plenary
     },
     {
         id:5,
         title:"Lunch Break",
-        time:"01:00 PM - 02:30 PM",
-        location:"GJLT",
+        time:"01:45 PM - 03:00 PM",
+        location:"EDC",
         src:lunchBreak
     },
     {
         id:6,
         title:"Plenary Session - 2",
-        time:"02:30 PM - 04:30 PM",
-        location:"New Lecture Auditorium",
+        time:"03:00 PM - 04:00 PM",
+        location:"Texmin Conference Hall",
         src:plenary
     },
     {
+      id:8,
+      title:"Plenary Session - 3",
+      time:"04:00 PM - 05:00 PM",
+      location:"Texmin Conference Hall",
+      src:plenary
+  },
+    {
         id:7,
         title:"Tea Break",
-        time:"04:00 PM - 04:30 PM",
-        location:"New Lecture Auditorium",
+        time:"05:00 PM",
+        // location:"",
         src:teaBreak
     },
     {
         id:8,
-        title:"Plenary Session - 3",
-        time:"04:30 PM - 05:30 PM",
-        location:"New Lecture Auditorium",
-        src:plenary
+        title:"Cultural Program",
+        time:"07:15 PM - 09:00 PM",
+        location:"Penman Auditorium",
+        src:cultural
     },
+   
     {
         id:9,
         title:"Gala Dinner",
-        time:"06:30 PM - 08:30 PM",
-        location:"Scolomin Club",
+        time:"09:00 PM",
+        location:"Penman Quadrangle",
         src:galaDinner
     }
 ]
@@ -438,15 +454,21 @@ export const eventsOfDay2=[
     {
         id:1,
         title:"Concluding Session and Valedictory function",
-        time:"09:00 AM - 11:00 AM",
-        location:"GJLT",
+        time:"10:00 AM - 01:00 PM",
+        location:"Texmin Classroom Hall",
         src:closingCeremony
     },
     {
         id:2,
-        title:"Leisure Activity",
-        time:"11:00 AM - 05:30 PM",
-        location:"GJLT",
-        src:leisure
+        title:"Lunch Break",
+        time:"01:00 PM - 02:00 PM",
+        location:"EDC",
+        src:lunchBreak
+    },{
+        id:3,
+        title:"Moonidih Mines",
+        time:"02:00 PM",
+        // location:"GJLT",
+        src:mines
     }
 ]
