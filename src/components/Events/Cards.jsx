@@ -50,7 +50,7 @@ export default function Cards({ src, title, location, time, rightContent }) {
 
       {/* Info Icon (Mobile) */}
       {rightContent && (
-        <div className="absolute bottom-4 right-4 text-white text-xl cursor-pointer">
+        <div className="absolute bottom-4 right-4 text-white text-xl sm:text-2xl md:text-3xl cursor-pointer">
           <FaInfoCircle onClick={handleDialogOpen} />
         </div>
       )}
