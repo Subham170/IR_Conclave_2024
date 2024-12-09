@@ -245,7 +245,7 @@ export const iitLocations = [
     {
       id: 7,
       name: "Mr. Satya Shiva Shankar R",
-      role: "AR (DOIR) (IIT Kanpur)",
+      role: "Alumni Relations (DOIR) (IIT Kanpur)",
       image: kanpur, // Replace with actual image URLs
     },
     {
@@ -263,13 +263,13 @@ export const iitLocations = [
     {
       id: 10,
       name: "Mr. Arup Roy",
-      role: "Junior IR Executive (IIT Kharagpur)",
+      role: "Junior International Relations Executive (IIT Kharagpur)",
       image: kgp, // Replace with actual image URLs
     },
     {
       id: 11,
       name: "Ms. Koushiki Mukherjee",
-      role: "IR Executive (IIT Kharagpur)",
+      role: "International Relations Executive (IIT Kharagpur)",
       image: kgp, // Replace with actual image URLs
     },
     {
@@ -287,14 +287,14 @@ export const iitLocations = [
     {
       id: 11,
       name: "Prof. V C Srivastava",
-      role: "Dean (IR) (IIT Roorkee)",
+      role: "Dean (International Relations) (IIT Roorkee)",
       image: roorkee, // Replace with actual image URLs
     },
     // New participants
     {
       id: 12,
       name: "Mr. Ashish Biswas",
-      role: "Associate Dean (AA&IR) (IIT Bhubaneswar)",
+      role: "Dean (Alumni Affairs & International Relations) (IIT Bhubaneswar)",
       image: bhubaneswar, // Replace with actual image URLs
     },
     {
@@ -312,13 +312,13 @@ export const iitLocations = [
     {
       id: 15,
       name: "Dr. Ankur Gupta",
-      role: "Associate Dean IR Connect (IIT Jodhpur)",
+      role: "Associate Dean International Relations Connect (IIT Jodhpur)",
       image: jodhpur, // Replace with actual image URLs
     },
     {
       id: 16,
       name: "Mr. Baikuntha Nath Sahu",
-      role: "AR, IR (IIT Jodhpur)",
+      role: "Alumni Relations, International Relations (IIT Jodhpur)",
       image: jodhpur, // Replace with actual image URLs
     },
     {
@@ -330,12 +330,12 @@ export const iitLocations = [
     {
       id: 18,
       name: "Prof. Atharva",
-      role: "Dean (IR) (IIT Ropar)",
+      role: "Dean (International Relations) (IIT Ropar)",
       image: ropar, // Replace with actual image URLs
     },{
       id: 19,
       name: "Prof. Rukmankesh",
-      role: "FIC (IR) (IIT Bhilai)",
+      role: "FIC (International Relations) (IIT Bhilai)",
       image: bhilai, // Replace with actual image URLs
     },{
       id: 20,
