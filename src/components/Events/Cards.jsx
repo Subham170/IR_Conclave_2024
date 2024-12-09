@@ -32,7 +32,7 @@ export default function Cards({ src, title, location, time, rightContent }) {
 
       {/* Right Content (Desktop) */}
       {rightContent && (
-        <div className="hidden md:block absolute top-4 right-4 w-1/2 text-right">
+        <div className="hidden absolute top-4 right-4 w-1/2 text-right">
           <h2 className="text-lg sm:text-xl font-medium">Chairperson:</h2>
           <p className="text-sm sm:text-md">
             {rightContent.chairperson.name} - {rightContent.chairperson.designation}
@@ -50,7 +50,7 @@ export default function Cards({ src, title, location, time, rightContent }) {
 
       {/* Info Icon (Mobile) */}
       {rightContent && (
-        <div className="md:hidden absolute bottom-4 right-4 text-white text-xl cursor-pointer">
+        <div className="absolute bottom-4 right-4 text-white text-xl cursor-pointer">
           <FaInfoCircle onClick={handleDialogOpen} />
         </div>
       )}
