@@ -375,14 +375,14 @@ export const iitLocations = [
     id:0,
     title:"Institute Tour",
     time:"09:30 AM - 10:30 AM",
-    // location:"GJLT",
+    location:"IIT ISM Dhanbad",
     src:campus_tour
   } ,
   {
         id:1,
         title:"Registration",
         time:"10:30 AM - 11:00 AM",
-        // location:"GJLT",
+        location:"IIT ISM Dhanbad",
         src:registration
     },
     {
@@ -396,16 +396,32 @@ export const iitLocations = [
         id:3,
         title:"Tea Break",
         time:"12:30 PM - 12:45 PM",
-        // location:"RamDhani",
+        location:"IIT ISM Dhanbad",
         src:teabreak
     },
     {
-        id:4,
-        title:"Plenary Session - 1",
-        time:"12:45 PM - 01:45 PM",
-        location:"Texmin Conference Hall",
-        src:plenary
-    },
+      id: 4,
+      title: "Plenary Session - 1",
+      time: "12:45 PM - 01:45 PM",
+      location: "Texmin Conference Hall",
+      src: plenary,
+      rightContent: {
+          chairperson: {
+              name: "Ms. Swadha Rizwi",
+              designation: "RO, ICCR Patna"
+          },
+          speakers: [
+              {
+                  name: "Prof. Rabibrata Mukherjee",
+                  designation: "Dean(IR), IIT Kharagpur"
+              },
+              {
+                  name: "Prof. Ashis Biswas",
+                  designation: "Professor, IIT Bhubaneswar"
+              }
+          ]
+      }
+  },  
     {
         id:5,
         title:"Lunch Break",
@@ -418,20 +434,52 @@ export const iitLocations = [
         title:"Plenary Session - 2",
         time:"03:00 PM - 04:00 PM",
         location:"Texmin Conference Hall",
-        src:plenary
+        src:plenary,
+        rightContent: {
+    chairperson: {
+        name: "Dr. Katja Lasch",
+        designation: "DAAD Regional Director (India)"
+    },
+    speakers: [
+        {
+            name: "Ms. Marissa Catherine",
+            designation: "Associate Program Administrator, IIT Madras"
+        },
+        {
+            name: "Prof. Rukmankesh",
+            designation: "Faculty In-Charge, IIT Bhilai"
+        }
+    ]
+}
     },
     {
       id:8,
       title:"Plenary Session - 3",
       time:"04:00 PM - 05:00 PM",
       location:"Texmin Conference Hall",
-      src:plenary
+      src:plenary,
+      rightContent: {
+    chairperson: {
+        name: "Dr. Katja Lasch",
+        designation: "DAAD Regional Director (India)"
+    },
+    speakers: [
+        {
+            name: "Ms. Marissa Catherine",
+            designation: "Associate Program Administrator, IIT Madras"
+        },
+        {
+            name: "Prof. Rukmankesh",
+            designation: "Faculty In-Charge, IIT Bhilai"
+        }
+    ]
+}
   },
     {
         id:7,
         title:"Tea Break",
         time:"05:00 PM",
-        // location:"",
+        location:"IIT ISM Dhanbad",
         src:teaBreak
     },
     {
@@ -468,7 +516,7 @@ export const eventsOfDay2=[
         id:3,
         title:"Moonidih Mines",
         time:"02:00 PM",
-        // location:"GJLT",
+        location:"IIT ISM Dhanbad",
         src:mines
     }
 ]

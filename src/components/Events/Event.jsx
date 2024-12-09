@@ -33,6 +33,7 @@ function Event() {
               title={event.title}
               location={event.location}
               time={event.time}
+              rightContent={event?.rightContent}
             />
           ))}
         {selectedDay === 2 &&
@@ -43,6 +44,7 @@ function Event() {
               title={event.title}
               location={event.location}
               time={event.time}
+              rightContent={event?.rightContent}
             />
           ))}
       </div>
